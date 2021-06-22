@@ -2,6 +2,8 @@
 
 Simple cross-platform naver search workflow for Arvis
 
+![](./demo.png)
+
 ## Install
 
 ```
