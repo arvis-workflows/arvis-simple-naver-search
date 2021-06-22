@@ -1,0 +1,27 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+    "creator": "jopemachine",
+    "name": "arvis-simple-naver-search",
+    "enabled": true,
+    "description": "Simple naver search workflow for Arvis",
+    "readme": "",
+    "version": "0.0.1",
+    "webAddress": "",
+    "defaultIcon": "icon.png",
+    "commands": [
+        {
+            "type": "scriptFilter",
+            "command": "ns",
+            "scriptFilter": "node index.js",
+            "runningSubtext": "Searching...",
+            "withspace": true,
+            "actions": [
+                {
+                    "type": "open",
+                    "modifiers": "normal",
+                    "target": "http://search.naver.com/search.naver?ie=utf8&sm=stp_hty&where=se&query={query}"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "arvis-simple-naver-search",
+  "version": "0.0.1",
+  "description": "Simple naver search workflow for Arvis",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "arvis",
+    "arvis-workflow",
+    "arvish",
+    "naver"
+  ],
+  "author": "jopemachine",
+  "license": "MIT",
+  "dependencies": {
+    "arvish": "^0.1.16"
+  }
+}
