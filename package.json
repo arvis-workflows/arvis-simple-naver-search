@@ -4,7 +4,16 @@
   "description": "Simple naver search workflow for Arvis",
   "main": "index.js",
   "scripts": {
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
   },
+  "files": [
+    "arvis-workflow.json",
+    "*.js",
+    "README.md",
+    "LICENSE",
+    "icon.png"
+  ],
   "keywords": [
     "arvis",
     "arvis-workflow",
