@@ -5,7 +5,7 @@
     "enabled": true,
     "description": "Simple naver search workflow for Arvis",
     "readme": "Simple cross-platform Naver search workflow for Arvis",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "webAddress": "https://github.com/jopemachine/arvis-simple-naver-search",
     "defaultIcon": "icon.png",
     "commands": [
@@ -15,6 +15,7 @@
             "scriptFilter": "node index.js '{query}'",
             "runningSubtext": "Searching...",
             "withspace": true,
+            "argType": "required",
             "actions": [
                 {
                     "type": "open",
