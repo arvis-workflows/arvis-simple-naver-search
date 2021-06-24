@@ -1,6 +1,6 @@
 {
   "name": "arvis-simple-naver-search",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple naver search workflow for Arvis",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "author": "jopemachine",
   "license": "MIT",
   "dependencies": {
-    "arvish": "^0.1.16",
+    "arvish": "^0.2.1",
     "encodeurl": "^1.0.2"
   }
 }
