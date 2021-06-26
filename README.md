@@ -14,3 +14,7 @@ Install by npm
 ```
 $ npm i -g arvis-simple-naver-search
 ```
+
+## Usage
+
+Type `ns` and give some `query` you want in Arvis

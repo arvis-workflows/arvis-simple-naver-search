@@ -5,7 +5,7 @@
     "enabled": true,
     "description": "Simple naver search workflow for Arvis",
     "readme": "Simple cross-platform Naver search workflow for Arvis",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "webAddress": "https://github.com/jopemachine/arvis-simple-naver-search",
     "defaultIcon": "icon.png",
     "commands": [
